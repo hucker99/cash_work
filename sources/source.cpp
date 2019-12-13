@@ -23,7 +23,7 @@ std::map<int, int> Cache::number_of_experiments() {
 }
 
 
-void Cache::straight_pass() {
+void Cache::directionType() {
     int number_of_experimets = _experiments.size();
     for (size_t i = 1; i <= static_cast<size_t>(number_of_experimets); ++i) {
         set_array(i);
@@ -40,7 +40,7 @@ void Cache::straight_pass() {
 }
 
 
-void Cache::back_pass() {
+void Cache::converseType() {
     int number_of_experimets = _experiments.size();
     for (size_t i = 1; i <= static_cast<size_t>(number_of_experimets); ++i) {
         set_array(i);
@@ -57,7 +57,7 @@ void Cache::back_pass() {
 }
 
 
-void Cache::random_pass() {
+void Cache::randomType() {
     int number_of_experimets = _experiments.size();
     for (size_t i = 1; i <= static_cast<size_t>(number_of_experimets); ++i) {
         set_array(i);
