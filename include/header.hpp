@@ -25,11 +25,11 @@ public:
 
     std::map<int, int> number_of_experiments();
 
-    void straight_pass();
+    void directionType();
 
-    void back_pass();
+    void converseType();
 
-    void random_pass();
+    void randomType();
 
     void resultWindow(std::string const &, size_t const &, int const &,
                       double const &);
